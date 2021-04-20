@@ -1,0 +1,20 @@
+--How to Compile
+	In thie directory, enter the following command:
+	$ make
+	It will generate the executable file "hw3" in "HW3/bin"
+
+	If you want to remove it, please enter the following command:
+	$ make clean
+
+--How to Run
+	In this directory, enter the following command:
+	Usage: ../bin/<exe> <hardblocks file> <nets file> <pl file> <floorplan file> <dead_space_ratio>
+	e.g.:
+	$ ../bin/hw3 *.hardblocks *.nets *.pl *.floorplan dead_space_ratio
+	
+	notice:	* means any file name
+
+	In "HW3/bin/", enter the following command:
+	Usage: ./<exe> <hardblocks file> <nets file> <pl file> <floorplan file> <dead_sapce_ratio>
+	e.g.:
+	$ ./hw3 *.hardblocks *.nets *.pl *.floorplan dead_space_ratio
